@@ -12,13 +12,6 @@ import {
 } from './styles';
 
 const PageDay = props => {
-  const nextAction = () => {
-    if (!props.name) {
-      alert('Você precisa de um nome!');
-    }
-    props.navigation.navigate('StarterNivel');
-  };
-
   let firstName = props.name.split(' ')[0]; //Passando nome na 1 posição
 
   const toggleDay = d => {

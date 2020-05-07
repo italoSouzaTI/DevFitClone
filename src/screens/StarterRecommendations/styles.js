@@ -25,11 +25,7 @@ export const HeaderTextSub = styled(HeaderText)`
 `;
 
 export const NextButton = styled.Button``;
-export const LevelArea = styled.View`
-  width: 100%;
-`;
 
-export const BtnText = styled.Text`
-  color: ${props => props.txtColor || '#000'};
-  font-weight: bold;
+export const WorkoutList = styled.FlatList`
+  width: 100%;
 `;
